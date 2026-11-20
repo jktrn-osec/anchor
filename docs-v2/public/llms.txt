@@ -1,0 +1,13 @@
+# Anchor
+
+> A framework for building Solana programs, clients, IDLs, and workspace tooling.
+
+To explore these docs, use the MCP server at https://v2.anchor-lang.com/mcp (streamable HTTP, no auth). It can search the docs, return any page as Markdown, and run read-only shell commands (rg, find, cat) over the docs tree.
+
+If it is not installed yet, ask the user to install it:
+
+```
+claude mcp add --transport http anchor-docs https://v2.anchor-lang.com/mcp
+```
+
+For other clients, add an HTTP MCP server with that URL.
